@@ -661,8 +661,19 @@ MonoBehaviour:
   features:
   - {fileID: 8736661028334727731}
   - {fileID: 3598254934845347770}
+  - {fileID: -929083498261921665}
+  - {fileID: 4693493014613502037}
   - {fileID: 1170704673688743257}
+  - {fileID: -4602797336560833009}
+  - {fileID: -4448819794744138209}
+  - {fileID: 4246122211562557418}
+  - {fileID: -687283474942471587}
+  - {fileID: 5396237617684501465}
   - {fileID: 5153017048313567732}
+  - {fileID: -7801876770998033232}
+  - {fileID: 3611960972051628644}
+  - {fileID: 4140048229653135325}
+  - {fileID: -3605257504114770015}
   - {fileID: -8705318006256794946}
   - {fileID: 6481653220666705815}
   - {fileID: 7393116930172532905}
@@ -672,6 +683,8 @@ MonoBehaviour:
   - {fileID: 3344995148386438684}
   - {fileID: 6389727029650002286}
   - {fileID: -4166740740631445519}
+  - {fileID: 8583847325705195677}
+  - {fileID: 8909942592803722923}
   - {fileID: -8999059302058509960}
   - {fileID: -5212364890371797913}
   - {fileID: 3837512152752227827}
@@ -684,11 +697,13 @@ MonoBehaviour:
   - {fileID: -6300852659050339468}
   - {fileID: -4782912542820276973}
   - {fileID: 1109513913212486038}
+  - {fileID: -2233696802471015997}
   - {fileID: -500553951895718075}
   - {fileID: 8461216366325073885}
   - {fileID: -8385369577385903398}
   - {fileID: -2778858118241658710}
   - {fileID: 430188747721659633}
+  - {fileID: -5038539099117010639}
   - {fileID: 750856212347791325}
   - {fileID: 2821238428615573753}
   - {fileID: -7677771197093365762}
@@ -698,21 +713,6 @@ MonoBehaviour:
   - {fileID: 6854443372140345734}
   - {fileID: 8347051584439025853}
   - {fileID: 2684350569200705238}
-  - {fileID: -2233696802471015997}
-  - {fileID: -5038539099117010639}
-  - {fileID: 5396237617684501465}
-  - {fileID: -4448819794744138209}
-  - {fileID: -929083498261921665}
-  - {fileID: 4693493014613502037}
-  - {fileID: 4246122211562557418}
-  - {fileID: -7801876770998033232}
-  - {fileID: 4140048229653135325}
-  - {fileID: -687283474942471587}
-  - {fileID: -4602797336560833009}
-  - {fileID: 3611960972051628644}
-  - {fileID: -3605257504114770015}
-  - {fileID: 8909942592803722923}
-  - {fileID: 8583847325705195677}
   customLoaderName: 
   m_renderMode: 0
   m_latencyOptimization: 0
@@ -1196,7 +1196,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 1
   m_useOpenXRPredictedTime: 1
 --- !u!114 &-1792293151131426384
@@ -2634,7 +2634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6096094d69d82cc40947df806f66ab34, type: 3}
   m_Name: OpenXRCompositionLayersFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Composition Layers Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.compositionlayers
